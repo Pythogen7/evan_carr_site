@@ -1,0 +1,12 @@
+.privpupdate {
+    color: grey;
+    font-style: italic;
+}
+
+.privpolic p {
+    text-align: left !important; 
+}
+
+.privpolic {
+    padding-bottom: 40px;
+}

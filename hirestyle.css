@@ -100,7 +100,10 @@ body {
 
 
 
-
+.project-title {
+    font-size: min(14vw, 5rem);
+    
+}
 
 .website-item {
     background: white;

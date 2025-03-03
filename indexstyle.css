@@ -8,7 +8,8 @@
 
 
 .profile {
-    max-width: 250px; /* Adjust size as needed */
+    max-width: 256px; /* Adjust size as needed */
+    max-height: 256px;
     border-radius: 50%; /* Makes the image round */
     margin-bottom: 55px;
 }
@@ -20,13 +21,16 @@
 
 .code-graphics-header {
     margin-bottom: 15px;
-
     color: #003153;
+    margin: 0px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 body {
     text-align: center;
 }
+
 
 
 .hire-section {
@@ -73,3 +77,4 @@ body {
     text-align: center;
     font-size: 20px;
 } 
+

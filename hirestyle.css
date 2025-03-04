@@ -169,6 +169,7 @@ body {
 .web-apps-examples {
     display: flex;
     gap: 40px;
+
     justify-content: center;
 
 }
@@ -178,6 +179,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
 .web-apps-example img {

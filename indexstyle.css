@@ -20,7 +20,8 @@
 }
 
 .code-graphics-header {
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
+    font-weight: bold;
     color: #003153;
     margin: 0px;
   font-size: 1.5rem;

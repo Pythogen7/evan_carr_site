@@ -1,0 +1,348 @@
+body {
+    text-align: center; 
+}
+
+
+
+.details {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.detail-item {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #003153;
+  padding: 15px 15px 0 15px;
+  width: 200px;
+  background: white;
+  border-radius: 30px;
+  border: 2px solid;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detail-item i {
+  font-size: 3rem;
+  color: #003153;
+
+  margin-bottom: 10px;
+}
+
+
+/* Optional: Customize icons if using Font Awesome */
+.fas {
+  color: #003153;
+}
+
+.testimony-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.testimony_flasher {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  align-items: center;
+  height: 100%;
+  width: 600%;  /* Width will be 6 times the container to fit all 6 testimonies */
+}
+
+.testimony {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin: 0 40px;
+  box-sizing: border-box;
+}
+
+.testimony .quote {
+  font-size: 16px;
+  font-style: italic;
+  color: #555;
+}
+
+.testimony .quote-author {
+  font-size: 18px;
+  font-weight: bold;
+  color: #003153;
+  margin-top: 25px;
+
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background:  #003153;
+  border-radius: 45px;
+  width: 24px;
+  height: 24px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 20px;
+}
+
+.arrow.left {
+  left: 0px;
+  padding-left: 8.5px;
+  padding-right: 11.5px;
+}
+
+.arrow.right {
+  right: 0px;
+  padding-left: 11.5px;
+  padding-right: 8.5px;
+}
+
+/* Arrows Styles (hover effect) */
+.arrow:hover {
+  background-color: #0f172a;
+  color: grey;
+}
+
+
+
+.project-title {
+    font-size: min(14vw, 5rem);
+    
+}
+
+.website-item {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    display: flex;            /* Makes the container flex */
+    flex-direction: column;   /* Stacks the content vertically */
+    align-items: center;      /* Centers the content horizontally */
+
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color from the parent */
+    font-size: inherit; /* Inherits the font size from the parent */
+    font-weight: inherit; /* Inherits the font weight */
+
+}
+
+
+.website-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  object-fit: contain; /* Ensure images keep aspect ratio */
+
+}
+
+
+.flobux-web-img {
+  width: 120px;
+  height: 60px;
+  object-fit: contain; /* Ensure images keep aspect ratio */
+
+}
+
+.website-item-name {
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.website-item-link {
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.website-item-designed {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+
+
+.web-apps-examples {
+    display: flex;
+    gap: 40px;
+
+    justify-content: center;
+
+}
+
+.web-apps-example {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.web-apps-example img {
+    aspect-ratio: 1;
+    width: 150px;
+    border-radius: 24px;
+}
+
+.web-apps-example p {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+
+
+/* Grid of images */
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.img-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
+
+
+/* Flutter Section */
+.flutter-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.flutter-section p {
+    font-size: 14px;
+}
+
+.flutter-section img {
+    width: 15px;
+    height: 15px;
+    transform: translateY(2px);
+}
+
+
+/* Individual scripting items */
+.scripting-item {
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+/* Image Styling */
+.scripting-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs inside the items */
+.scripting-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.hire-action-call {
+  font-size: 1.5rem;
+}
+
+.hire-action-call .clicklink {
+  font-size: 1.5rem;
+}
+
+
+
+.blender {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.blender-years {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.blender-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.blender-logo {
+    width: 33px;
+    height: 27px;
+}
+
+.blender-text {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.model-entry-title {
+  font-weight: bold;
+}
+
+.model-entry {
+  padding: 30px;
+}
+
+.model-entry img {
+  object-fit: contain;
+  width: 250px;
+}
+
+
+
+.script_text {
+  text-align: left;
+  margin: 30px 0px;
+}
+
+
+.blend-container {
+  padding: 20px 0px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .details {
+    flex-direction: column; /* Stacks the items vertically */
+    align-items: center; /* Centers the items horizontally */
+    gap: 20px; /* Adds spacing between stacked items */
+  }
+
+  .detail-item {
+    width: 100%; /* Makes each item take full width on smaller screens */
+    max-width: 350px; /* Optional: Limits the max width to prevent it from getting too wide */
+  }
+  .img-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+

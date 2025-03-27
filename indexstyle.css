@@ -50,6 +50,10 @@ body {
     margin-left: auto;
 }
 
+.hire-button.visible {
+    animation: fadeIn 1s forwards;
+}
+
 
 .hire-text {
     color: #003153;

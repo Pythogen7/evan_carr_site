@@ -54,14 +54,16 @@ body {
   width: 100%;
   text-align: center;
   padding: 20px;
+  
   margin: 0 40px;
   box-sizing: border-box;
 }
 
 .testimony .quote {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 400;
   font-style: italic;
-  color: #555;
+  color: #363636;
 }
 
 .testimony .quote-author {
